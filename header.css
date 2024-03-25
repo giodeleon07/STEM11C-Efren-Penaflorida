@@ -1,0 +1,73 @@
+@import url('https://fonts.cdnfonts.com/css/mochain');
+@import url('https://fonts.cdnfonts.com/css/identidad');
+
+p.mobile {
+	display: none;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 150px;
+}
+
+header {
+	z-index: 2;
+	text-align: center;
+	color: white;
+	background-color: #B2C1A1;
+	padding: 10px 10px 0px 10px;
+	margin: auto;
+	width: 100%;
+	
+	position: fixed;
+	left: 50%;
+	top: 0px;
+	transform: translate(-50%);
+}
+
+header > hr {
+	border-top: solid 1px white;
+}
+
+/*navigation bar*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px 5px 0px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+li a {
+	font-family: 'Identidad', sans-serif;
+	font-size: 15px;
+	color: #F2F3F4;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 1px;
+}
+
+button{
+	margin: 5px;
+	border-radius: 3px;
+	border: none;
+	background-color: #B2C1A1;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*positions body*/
+.mainbody {
+	position: relative;
+	top: 200px;
+	width: 100%;
+	z-index: 1;
+}

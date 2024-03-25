@@ -1,0 +1,74 @@
+@import url('https://fonts.cdnfonts.com/css/mochain');
+
+.img1 {
+	max-width: 60%;
+	display: block;
+	margin: auto;
+	padding: 20px 0px 0px 0px;
+}
+
+.belowimg {
+	display: flex;
+	margin: auto;
+	padding: 0px 0px 80px 0px;
+	max-width: 80%;
+}
+
+.belowimg > div {
+	width: 50%;
+}
+
+.belowimg > div > img {
+	width: 100%;
+	padding: 20px;
+}
+
+.articleText {
+	text-align: justify;
+	font-size: 18px;
+	margin: auto;
+	max-width: 80%;
+	padding: 100px 0px;
+}
+
+.articleText::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+[class*="col-"] {
+	float: left;
+	width: 33.33%;
+	padding: 25px 10px 0px 10px;
+	display: inline;
+}
+
+[class*="col-"] > div > div > img {
+	width: 100%;
+	padding: 40px 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+	/* For mobile phones: */
+	[class*="col-"] {
+		width: 100%;
+	}
+}
+
+.articleTitle , .articleAuthor {
+	text-align: left;
+}
+
+.articleTitle {
+	font-size: 30px;
+	font-family: 'Mochain', sans-serif;
+}
+
+.articleAuthor {
+	font-style: italic;
+}
+
+.articleParagraph , .articleAuthor {
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}

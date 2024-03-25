@@ -1,0 +1,158 @@
+@import url('https://fonts.cdnfonts.com/css/mochain');
+@import url('https://fonts.cdnfonts.com/css/identidad');
+
+/*video*/
+video {
+	display: block;
+	margin: auto;
+}
+
+video::-webkit-media-controls-panel {
+  width: 40px;
+}
+
+/*feature articles*/
+.featstories {
+	display: flex;
+}
+
+.featstories > div {
+	display: inline-block;
+	min-width: 33.1%;
+}
+
+.featstories > div > img {
+	padding: 20px;
+	display: block;
+	margin: auto;
+	max-width: 80%;
+}
+
+.featstories > div > div {
+	padding: 10px;
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+
+.featstories > div > div > a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Mochain', sans-serif;
+	font-size: 35px;
+}
+
+.featstories > div > div > a:hover {
+	text-decoration: underline dotted #B6D7A8;
+}
+
+.featstories > div > div > p {
+	font-family: 'Identidad', sans-serif;
+	font-size: 15px;
+	text-align: justify;
+}
+
+/*articles*/
+.articlecategories {
+	border: solid;
+	border-width: 0px;
+	padding: 30px 0px;
+}
+
+.articlecategories > div {
+	display: block;
+	margin: auto;
+	width: 95%;
+}
+
+/*category title*/
+.articlecategories > div > #about , #projects , #advocacy {
+	font-family: Didot, serif;
+	font-style: italic;
+	font-size: 50px;
+	padding: 10px;
+	margin: 10px;
+	background-color: #CBD5C0;
+	color: white;
+	text-align: center;
+}
+
+/*for about*/
+.articlecategories > div > .image {
+	display: block;
+	margin: auto;
+	padding: 20px;
+}
+
+.articlecategories > div > div > img {
+	display: block;
+	margin: auto;
+	width: 30%;
+}
+
+.articlecategories > div > .articleText {
+	display: block;
+	margin: auto;
+	margin: 30px;
+	width: 95%;
+}
+
+.articlecategories > div > div > .articleTitle {
+	font-family: 'Mochain', sans-serif;
+	font-size: 40px;
+}
+
+.articlecategories > div > div > .articleAuthor {
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-style: italic;
+}
+
+.articlecategories > div > div > .articleParagraph {
+	font-family: 'Identidad', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+/*for projects and advocacy*/
+.articlecategories > div > .article {
+	display: flex;
+	padding: 20px;
+}
+
+.articlecategories > div > .article > .image {
+	min-width: 35%;
+}
+
+.articlecategories > div > .article > div > img {
+	max-width: 80%;
+	display: block;
+	margin: auto;
+	position: relative;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+.articlecategories > div > .article > .articleText {
+	margin: auto;
+}
+
+.articlecategories > div > div > div > .articleTitle {
+	font-family: 'Mochain', sans-serif;
+	font-size: 40px;
+	color: black;
+	text-decoration: none;
+}
+
+.articlecategories > .projects > div > div > .articleTitle:hover {
+	text-decoration: underline dotted #B6D7A8;
+}
+
+.articlecategories > .advocacy > div > div > .articleTitle:hover {
+	text-decoration: underline dotted #B6D7A8;
+}
+
+.articlecategories > div > div > div > .articleParagraph {
+	font-family: 'Identidad', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
